@@ -85,21 +85,13 @@ nav ul li a:hover::after {
 }
 
 .story-card img {
-    width: 100%;
+    width: 90%;
     height: auto;
     border-radius: 10px;
 }
 
 .story-card:hover {
     transform: scale(1.1);
-}
-
-.story h1 {
-    font-size: 60px;
-    font-weight: bold;
-    color: yellow;
-    align-items: center; 
-    justify-content: center;
 }
 
 .story-card .story-text {
@@ -115,3 +107,16 @@ nav ul li a:hover::after {
     padding: 10px;
     border-radius: 5px;
 }
+.story-title h1{
+    font-family: "bangers";
+    display: flex;
+    font-weight: 180px;
+    color: yellow;
+    align-items: center; 
+    justify-content: center;
+    text-justify: center;
+    justify-items: center;
+    display: block;
+    text-align: center;
+    width: 100%;
+} 

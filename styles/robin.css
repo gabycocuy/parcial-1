@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Albert Sans", Arial, Helvetica, sans-serif, "bangers";
+    background: linear-gradient(to right, black, #FFEE00);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 100px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+a:hover {
+    background-color: #cabe17;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+ul li a.active {
+    border-bottom: 2px solid yellow;
+}
+
+.profile-icon i{
+    width: 40px;
+    border-radius: 50%;
+    color: white;
+}
+.character-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.character-image img {
+    width: 350px;
+    border-radius: 10px;
+}
+
+.character-info {
+    max-width: 500px;
+    text-align: left;
+}
+
+.character-info h1 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Comic Sans MS', cursive;
+    color: white;
+}
+
+.character-info p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #ddd;
+}
